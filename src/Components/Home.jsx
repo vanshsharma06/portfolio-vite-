@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Home() {
   return (
-    <div id="main" className="overflow-x-hidden overflow-y-hidden">
+    <div id="main" className="overflow-x-hidden ">
       {/* Navigation */}
       <div
         id="nav"
@@ -79,10 +79,10 @@ export default function Home() {
               />
             </span>
           </h1>
-          <h3 className="text-2xl md:text-[2.9vw] mt-[3px] text-gray-600">
+          <h3 className=" text-2xl md:text-[2.9vw] mt-[3px] text-gray-600">
             Web Developer | Programmer
           </h3>
-          <div className="btn mt-[9vh]">
+          <div className="btn mt-[11vh]">
             <a href="#page4">
               <h3 className="inline-block text-xl md:text-[2vw] text-black border-2 border-black bg-[#17eac3] px-8 py-3 rounded-[30px] shadow-[4px_4px_20px_black] hover:shadow-[0_0_10px_white]">
                 Get in Touch
@@ -220,7 +220,7 @@ export default function Home() {
       </div>
 
       {/* Page 4 - Contact */}
-      <div id="page4" className="w-full h-[90vh] mt-[52px] pt-[90vw]">
+      <div id="page4" className="w-full h-[90vh] mt-[52px] pt-[90vw] md:pt-[30vw]">
         <div
           id="skills"
           className="h-[10vh] md:h-[20vh] w-[90vw] mx-[5vw] flex flex-wrap items-center justify-between border-t-[3px] border-b-[3px] border-dashed border-black"
@@ -249,8 +249,8 @@ export default function Home() {
           </h1>
 
           <div id="left-right" className="h-[60vh] flex flex-col md:flex-row">
-            <div id="left" className="w-full md:w-[30vw] py-[10vh] px-[5vw]">
-              <div className="social mt-20">
+            <div id="left" className="w-full md:w-[30vw] md:py-[14vh] px-[5vw]">
+              <div className="social mt-13 md:mt-20">
                 <h1 className="text-center mb-[2vh] font-sans text-gray-600 text-[18px] md:text-[3vw] tracking-[1vw]">
                   Social <span className="text-[#17eac3] ">Links</span>
                 </h1>
@@ -302,7 +302,7 @@ export default function Home() {
               className="w-full md:w-[70vw] py-0 px-[5vw] flex flex-col items-center"
             >
               <div className="contact flex flex-col items-center">
-                <h1 className="text-gray-700 font-bold mt-10 text-[25px] md:text-[3vw] tracking-widest text-center">
+                <h1 className="text-gray-700 font-bold mt-15 text-[25px] md:text-[3vw] tracking-widest text-center">
                   Contact <span className="text-[#17eac3]">Me</span>
                 </h1>
 
@@ -376,7 +376,7 @@ export default function Home() {
             id="footer"
             className="w-full h-[45vh] px-1 flex justify-center items-center"
           >
-            <h3 className="text-[17px] mt-180 md:text-xl md:pb-[17px]">
+            <h3 className="text-[17px] mt-90 pb-[16px] md:mt-180 md:text-xl md:pb-[17px]">
               <p>Crafted with ❤️ by Vansh Sharma. </p>
               <p className="flex justify-center">
                 © 2023. All rights reserved.
